@@ -11,8 +11,9 @@
 5. build the project using `go build`
 6. run using `./butku` on linux or mac and `.\butku.exe` on windows
 
-## usage
-1. to shorten a url send a `POST` request to hosted_domain.com/shorten along with url in JSON format as such -
+## Usage
+1. to shorten a url send a `POST` request to `/shorten` along with url in JSON format as such -
 ```json
 {"url":"https://example.com"}
 ```
+2. Send a `GET` request to `/{shortURL}` to get redirected
